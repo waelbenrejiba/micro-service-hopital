@@ -1,0 +1,16 @@
+{
+  "service_name": "user-service",
+  "port": 8003,
+  "database": {
+    "engine": "django.db.backends.sqlite3",
+    "name": "db.sqlite3"
+  },
+  "secrets": {
+    "jwt_secret": "user-service-jwt-secret-dev",
+    "api_key": "user-service-api-key-dev"
+  },
+  "features": {
+    "patient_registration": True,
+    "authentication": True
+  }
+}

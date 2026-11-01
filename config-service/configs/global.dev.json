@@ -1,0 +1,7 @@
+{
+  "service_name": "config-service",
+  "version": "1.0.0",
+  "env": "dev",
+  "log_level": "INFO",
+  "cors_allowed_origins": ["http://localhost:3000"]
+}

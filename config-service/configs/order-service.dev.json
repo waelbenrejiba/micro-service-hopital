@@ -1,0 +1,16 @@
+{
+  "service_name": "order-service",
+  "port": 8004,
+  "database": {
+    "engine": "django.db.backends.sqlite3",
+    "name": "db.sqlite3"
+  },
+  "secrets": {
+    "jwt_secret": "order-service-jwt-secret-dev",
+    "api_key": "order-service-api-key-dev"
+  },
+  "features": {
+    "order_creation": True,
+    "order_history": True
+  }
+}
